@@ -42,7 +42,7 @@ BEGIN
     WHERE 
         E.DepartmentID = @DepartmentID;
 END;
-EXEC sp_GetEmployeesByDepartment @DepartmentID=5
+EXEC sp_GetEmployeesByDepartment @DepartmentID=1
 
 CREATE PROCEDURE sp_InsertEmployee
     @EmployeeID INT,

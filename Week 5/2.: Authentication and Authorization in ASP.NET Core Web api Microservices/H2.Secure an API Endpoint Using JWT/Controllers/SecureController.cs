@@ -10,7 +10,7 @@ public class SecureController : ControllerBase
  [Authorize]
  public IActionResult GetSecureData()
  {
- return Ok("This is protected data.");
+ return Ok("This is protected data only visible with a valid JWT token.");
  }
 }
 

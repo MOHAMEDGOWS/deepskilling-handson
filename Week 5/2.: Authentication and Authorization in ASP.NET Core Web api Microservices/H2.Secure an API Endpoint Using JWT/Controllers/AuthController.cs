@@ -55,12 +55,7 @@ namespace JWT_Application.Controllers
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
-        [Authorize]
-        [HttpGet("secure-data")]
-        public IActionResult GetSecureData()
-        {
-            return Ok("This is protected data only visible with a valid JWT token.");
-        }
+        
     }
 }
 

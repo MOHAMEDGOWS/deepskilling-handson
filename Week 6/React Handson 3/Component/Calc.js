@@ -1,4 +1,4 @@
-import './mystyle.css'; 
+import './Stylesheets/mystyle.css'; 
 const Toperc = (decimal) => {
     return (decimal.toFixed(2) + '%');
 }

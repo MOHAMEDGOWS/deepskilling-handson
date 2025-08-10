@@ -25,3 +25,6 @@ $ git branch -d GitWork
 
 8. Final log visualization
 $ git log --oneline --graph --decorate
+
+9.Github push
+$ git push origin master
